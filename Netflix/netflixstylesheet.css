@@ -1,0 +1,524 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(48, 43, 43);
+
+    
+}
+.box1{
+    width: 100vw;
+    height: 100vh;
+    position:relative;
+    /* box-shadow: inset 15px 15px 10px black; */
+
+}
+.head1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8rem 10rem;
+    align-items: center;
+    /* font-size: 1.5rem; */
+    /* box-shadow: inset 15em 15em 10em black; */
+}
+#netflixname{
+    color: rgb(229,9,20);
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    /* width: 2rem; */
+}
+#button1{
+    background-color: rgb(229,9,20);
+    font-size: 0.9rem;
+    padding: 0.5rem  1.2rem;
+    color: aliceblue;
+    border: solid rgb(229,9,20) 1px ;
+    border-radius: 4px;
+    
+}
+#language{
+    background-color: rgba(17, 17, 17, 0.89);
+    border-radius: 4px;
+    color: antiquewhite;
+    width: 7rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    padding: .4rem;
+}
+.head1 .rightbox{
+    gap: 1.5rem;
+    /* padding-bottom: 1.2rem; */
+    display: flex;
+    justify-content: space-between;
+}
+#main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+    gap: 1.3rem;
+    margin-top: 12rem;
+}
+
+
+.main1para{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+#para1{
+    font-size: 2.7rem;
+    font-weight:calc(1000);
+    /* line-height:rem ; */
+    /* font-weight: bold; */
+    /* text-size-adjust: 10; */
+    
+}
+#para2{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+#para3{
+    font-size: 1.3rem;
+    /* font-weight: bolder; */
+}
+.form1{
+    display: flex;
+    /* padding: 1rem; */
+
+}
+#email{
+    width: 25rem;
+    height: 3.5rem;
+    padding-left: 0.7rem;
+    font-size: 1rem;
+    color: antiquewhite;
+    background-color: rgba(51, 48, 48, 0.822);
+    border: solid 1px rgba(51, 48, 48, 0.774);
+    border-radius: 4px;
+    margin-right: .3rem;
+}
+#button2{
+    width: 12rem;
+    height: 3.5rem;
+    background-color: rgb(229,9,20);
+    border: solid rgb(229,9,20) 1px ;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-size: 1.4rem;
+}
+.content1{
+    width: 100%;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    background-color: rgba(0, 0, 0, 0.548);
+position: absolute;
+top: 0;
+left: 0;
+box-shadow: inset 5em 5em 13em black;
+/* opacity:50%; */
+}
+#logo{
+    margin-top: 1rem;
+    width: 10rem;
+}
+.image1{
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+    height: 100%;
+    width: 100%;
+    
+    overflow: auto;
+}
+.box2{
+    width: 100%;
+    height:33rem;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    margin-top: .5rem;
+    padding-left: 10rem;
+    gap: 2rem;
+    justify-content: space-around;
+    padding-right: 10rem;
+}
+.leftbox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1.2rem;
+}
+#enjoy{
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: calc(1000);
+}
+#watch{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    font-weight: calc(500);
+}
+.rightbox2{
+    position: relative;
+    /* width: */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#remote{
+    height: 25rem;
+    position: absolute;
+    top: 0;
+    left:0;
+    
+    margin-top: 4.5rem;
+    /* margin: auto; */
+}
+#video1{
+    
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+.box3{
+    width: 100%;
+    height:33rem;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    margin-top: .5rem;
+    /* padding-left: 10rem; */
+}
+.leftbox2{
+    position: relative;
+    margin-left: 2rem;
+}
+.boxin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.boxin1{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: .7rem;
+    width: 57%;
+    /* height: 5%; */
+    margin-top: 65%;
+    margin-left: 14rem;
+    background-color: black;
+    border: 2px solid rgb(56, 47, 47);
+    border-radius: 15px;
+}
+#imag{
+height: 4.3rem;
+}
+#ani{
+    height: 3rem;
+    padding-left: 1.5rem;
+}
+.middle #a{
+    font-family: sans-serif ;
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+.middle #doe{
+    font-family: sans-serif ;
+    font-size: .9rem;
+    color: #0071eb;
+    padding-left: 1rem;
+}
+#girl{
+    height: 70%;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+.rightbox3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 1.5rem;
+}
+#Download{
+    font-size: 3rem;
+    font-family: sans-serif ;
+    font-weight: calc(1000);
+}
+#save{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: calc(500);
+}
+.box4{
+    width: 100%;
+    height:33rem;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    margin-top: .5rem;
+    /* padding-left: 10rem; */
+    padding-left: 13%;
+    gap: 5%;
+    justify-content: space-around;
+    padding-right: 14%;
+}
+.leftbox3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1.2rem;
+}
+#watch1{
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: calc(1000);
+}
+#stream{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    font-weight: calc(500);
+}
+.rightbox4{
+    position: relative;
+    /* width: */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rajma{
+    height: 70%;
+    position: absolute;
+    top: 0;
+    left:0;
+    
+    margin-top: 4.5rem;
+    /* margin: auto; */
+}
+#video2{
+    position: relative;
+    width: 80%;
+    height: 65%;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    padding-bottom: 20%;
+    padding-left: 7%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.box5{
+    width: 100%;
+    height:33rem;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    margin-top: .5rem;
+    padding-left: 10rem;
+    gap: 1.4rem;
+    justify-content: space-around;
+    padding-right: 10rem;
+}
+.leftbox4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+   
+}
+#crea{
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: calc(1000);
+}
+#send{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: calc(500);
+    padding-right: 2rem;
+}
+.rightbox5{
+    /* position: relative; */
+    /* width: */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    /* text-align: left; */
+}
+#re{
+    height: 70%;
+    /* position: absolute; */
+    /* top: 0;
+    left:0; */
+    
+    /* margin-top: 4.5rem; */
+    /* margin: auto; */
+}
+.box6{
+    width: 100%;
+    height:60rem;
+    background-color: black;
+    color: antiquewhite;
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top{
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: calc(1000);
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+.mid{
+    display: grid;
+    width: 76%;
+    height: 58%;
+    grid-template-rows: repeat(6,1fr);
+    color: antiquewhite;
+    gap: .7rem;
+}
+.item{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: calc(500);
+    font-family: sans-serif;
+    padding-left: 2rem;
+}
+.end{
+    width: 100%;
+    height :20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.form2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    /* padding-top: 1rem; */
+}
+.top1{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+#email1{
+    width: 26rem;
+    height: 3.5rem;
+    padding-left: 0.7rem;
+    font-size: 1rem;
+    
+    background-color: rgba(26, 25, 25, 0.842);
+    border: solid 1px rgba(148, 139, 139, 0.822);
+    border-radius: 4px;
+    /* margin-right: .3rem; */
+}
+#but{
+    width: 12rem;
+    height: 3.5rem;
+    background-color: rgb(229,9,20);
+    border: solid rgb(229,9,20) 1px ;
+    border-radius: 3px;
+    color: antiquewhite;
+    font-size: 1.5rem;
+}
+.box7{
+    width: 100%;
+    height:23rem;
+    background-color: black;
+    color: rgba(255,255,255,0.70);
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 13%;
+    padding-right: 20%;
+    gap: 1.7rem;
+    /* align-items: center; */
+}
+.b1{
+    color: rgba(255,255,255,0.7);
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.b1 a{
+    color: rgba(255,255,255,0.7);
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.b2{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    
+}
+.b3{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* text-decoration: none; */
+    /* color: antiquewhite; */
+}
+.b4{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.b5{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.b6{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+a{
+    /* text-decoration-colo; */
+    color: rgba(255,255,255,0.7);
+    font-family: sans-serif;
+    font-size: .9rem;
+}
+#language1{
+    background-color: rgba(17, 17, 17, 0.89);
+    border-radius: 4px;
+    color: antiquewhite;
+    width: 8rem;
+    height: 2rem;
+    font-size: 1rem;
+    padding: .3rem;
+    margin-top: .7rem;
+    margin-bottom: .5rem;
+}
+.b3 p{
+    color: rgba(255,255,255,0.7);
+    font-family: sans-serif;
+    font-size: .9rem;
+}
