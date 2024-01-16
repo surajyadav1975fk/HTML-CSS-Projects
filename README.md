@@ -1,2 +1,3 @@
 # Netflix-Project
 In this repo, i have my full project of netflix webpage, that how i created my frontend page of Netflix and this the first project i have done...
+i haven't include js in this yet
