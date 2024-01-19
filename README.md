@@ -1,3 +1,4 @@
-# Netflix-Project
-In this repo, i have my full project of netflix webpage, that how i created my frontend page of Netflix and this the first project i have done...
-i haven't include js in this yet
+# projects
+
+In this repo, i have all my WEB dev. project folders.
+In these folder's ,i have html,css files and also the media that i have used in all project's. 
