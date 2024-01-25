@@ -18,15 +18,14 @@ let trueO=true;
 let count=0;
 boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
-        // console.log(`box is clicked`);
         if(trueO){
             box.innerText="O";
-            box.style.color="red"
+            box.style.color="black"
             trueO=false;
         }
         else{
             box.innerText="X";
-            box.style.color="green"
+            box.style.color="grey"
             trueO=true;
         }
         box.disabled=true;
